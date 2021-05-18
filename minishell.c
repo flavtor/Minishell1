@@ -99,7 +99,7 @@ int minishell(int ac, char **av, myenv_t *cpy)
     int return_val = 0;
 
     while (1) {
-        my_printf("[luca@localhost %s]$ ", getcwd(cwd, size));
+        my_printf("[flavien@localhost %s]$ ", getcwd(cwd, size));
         if (getline(&buffer, &size, stdin) == -1)
             return (0);
         return_val = builtins(buffer, cpy);
