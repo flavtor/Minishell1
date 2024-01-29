@@ -1,5 +1,5 @@
 
-65;5604;1c/*
+/*
 ** EPITECH PROJECT, 2020
 ** minishell1
 ** File description:
